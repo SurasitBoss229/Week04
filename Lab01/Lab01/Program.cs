@@ -7,8 +7,10 @@ namespace Lab01
     {
         static void Main(string[] args)
         {
-            Console.Write("Hello");
-            Console.Write("Hello");
+            Console.WriteLine("Data type : ulong");
+            Console.WriteLine("Size :" + sizeof(ulong));
+            Console.WriteLine("Minimum Value :" + ulong.MinValue);
+            Console.WriteLine("Maximum Value :" + ulong.MaxValue);
         }
     }
 }
